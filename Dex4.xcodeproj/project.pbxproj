@@ -57,9 +57,9 @@
 			children = (
 				612D203C29883B3400E4417B /* Dex4App.swift */,
 				612D203E29883B3400E4417B /* ContentView.swift */,
-				612D204029883B3500E4417B /* Assets.xcassets */,
 				612D204529883B3500E4417B /* Persistence.swift */,
 				612D204729883B3500E4417B /* Dex4.xcdatamodeld */,
+				612D204029883B3500E4417B /* Assets.xcassets */,
 				612D204229883B3500E4417B /* Preview Content */,
 			);
 			path = Dex4;
