@@ -13,6 +13,7 @@
 		612D204429883B3500E4417B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612D204329883B3500E4417B /* Preview Assets.xcassets */; };
 		612D204629883B3500E4417B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612D204529883B3500E4417B /* Persistence.swift */; };
 		612D204929883B3500E4417B /* Dex4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 612D204729883B3500E4417B /* Dex4.xcdatamodeld */; };
+		614F3C5929886B6E0050DDD1 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C5829886B6E0050DDD1 /* TempPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		612D204329883B3500E4417B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		612D204529883B3500E4417B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		612D204829883B3500E4417B /* Dex4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex4.xcdatamodel; sourceTree = "<group>"; };
+		614F3C5829886B6E0050DDD1 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				612D203C29883B3400E4417B /* Dex4App.swift */,
 				612D203E29883B3400E4417B /* ContentView.swift */,
+				614F3C5829886B6E0050DDD1 /* TempPokemon.swift */,
 				612D204529883B3500E4417B /* Persistence.swift */,
 				612D204729883B3500E4417B /* Dex4.xcdatamodeld */,
 				612D204029883B3500E4417B /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				612D204629883B3500E4417B /* Persistence.swift in Sources */,
 				612D203F29883B3400E4417B /* ContentView.swift in Sources */,
+				614F3C5929886B6E0050DDD1 /* TempPokemon.swift in Sources */,
 				612D204929883B3500E4417B /* Dex4.xcdatamodeld in Sources */,
 				612D203D29883B3400E4417B /* Dex4App.swift in Sources */,
 			);
