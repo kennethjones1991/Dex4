@@ -20,6 +20,8 @@
 		614F3C61298980660050DDD1 /* SamplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C60298980660050DDD1 /* SamplePokemon.swift */; };
 		614F3C63298986530050DDD1 /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C62298986530050DDD1 /* Pokemon+Ext.swift */; };
 		614F3C65298988890050DDD1 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C64298988890050DDD1 /* Stats.swift */; };
+		614F3C67298996460050DDD1 /* FetchedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C66298996460050DDD1 /* FetchedImage.swift */; };
+		614F3C692989970F0050DDD1 /* WidgetPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C682989970F0050DDD1 /* WidgetPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		614F3C60298980660050DDD1 /* SamplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePokemon.swift; sourceTree = "<group>"; };
 		614F3C62298986530050DDD1 /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
 		614F3C64298988890050DDD1 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		614F3C66298996460050DDD1 /* FetchedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedImage.swift; sourceTree = "<group>"; };
+		614F3C682989970F0050DDD1 /* WidgetPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				612D203E29883B3400E4417B /* ContentView.swift */,
 				614F3C5E29897F540050DDD1 /* PokemonDetail.swift */,
 				614F3C64298988890050DDD1 /* Stats.swift */,
+				614F3C682989970F0050DDD1 /* WidgetPokemon.swift */,
+				614F3C66298996460050DDD1 /* FetchedImage.swift */,
 				614F3C60298980660050DDD1 /* SamplePokemon.swift */,
 				614F3C5829886B6E0050DDD1 /* TempPokemon.swift */,
 				614F3C5A2988A8CE0050DDD1 /* FetchController.swift */,
@@ -168,6 +174,7 @@
 				614F3C65298988890050DDD1 /* Stats.swift in Sources */,
 				612D203F29883B3400E4417B /* ContentView.swift in Sources */,
 				614F3C5F29897F540050DDD1 /* PokemonDetail.swift in Sources */,
+				614F3C692989970F0050DDD1 /* WidgetPokemon.swift in Sources */,
 				614F3C63298986530050DDD1 /* Pokemon+Ext.swift in Sources */,
 				614F3C5B2988A8CE0050DDD1 /* FetchController.swift in Sources */,
 				614F3C61298980660050DDD1 /* SamplePokemon.swift in Sources */,
@@ -175,6 +182,7 @@
 				614F3C5929886B6E0050DDD1 /* TempPokemon.swift in Sources */,
 				612D204929883B3500E4417B /* Dex4.xcdatamodeld in Sources */,
 				612D203D29883B3400E4417B /* Dex4App.swift in Sources */,
+				614F3C67298996460050DDD1 /* FetchedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
