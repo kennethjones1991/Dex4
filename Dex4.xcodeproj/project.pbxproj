@@ -14,6 +14,7 @@
 		612D204629883B3500E4417B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612D204529883B3500E4417B /* Persistence.swift */; };
 		612D204929883B3500E4417B /* Dex4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 612D204729883B3500E4417B /* Dex4.xcdatamodeld */; };
 		614F3C5929886B6E0050DDD1 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C5829886B6E0050DDD1 /* TempPokemon.swift */; };
+		614F3C5B2988A8CE0050DDD1 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C5A2988A8CE0050DDD1 /* FetchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		612D204529883B3500E4417B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		612D204829883B3500E4417B /* Dex4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex4.xcdatamodel; sourceTree = "<group>"; };
 		614F3C5829886B6E0050DDD1 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
+		614F3C5A2988A8CE0050DDD1 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				612D203C29883B3400E4417B /* Dex4App.swift */,
 				612D203E29883B3400E4417B /* ContentView.swift */,
 				614F3C5829886B6E0050DDD1 /* TempPokemon.swift */,
+				614F3C5A2988A8CE0050DDD1 /* FetchController.swift */,
 				612D204529883B3500E4417B /* Persistence.swift */,
 				612D204729883B3500E4417B /* Dex4.xcdatamodeld */,
 				612D204029883B3500E4417B /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			files = (
 				612D204629883B3500E4417B /* Persistence.swift in Sources */,
 				612D203F29883B3400E4417B /* ContentView.swift in Sources */,
+				614F3C5B2988A8CE0050DDD1 /* FetchController.swift in Sources */,
 				614F3C5929886B6E0050DDD1 /* TempPokemon.swift in Sources */,
 				612D204929883B3500E4417B /* Dex4.xcdatamodeld in Sources */,
 				612D203D29883B3400E4417B /* Dex4App.swift in Sources */,
