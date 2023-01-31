@@ -18,6 +18,7 @@
 		614F3C5D2989737B0050DDD1 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C5C2989737B0050DDD1 /* PokemonViewModel.swift */; };
 		614F3C5F29897F540050DDD1 /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C5E29897F540050DDD1 /* PokemonDetail.swift */; };
 		614F3C61298980660050DDD1 /* SamplePokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C60298980660050DDD1 /* SamplePokemon.swift */; };
+		614F3C63298986530050DDD1 /* Pokemon+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614F3C62298986530050DDD1 /* Pokemon+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		614F3C5C2989737B0050DDD1 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 		614F3C5E29897F540050DDD1 /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 		614F3C60298980660050DDD1 /* SamplePokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePokemon.swift; sourceTree = "<group>"; };
+		614F3C62298986530050DDD1 /* Pokemon+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				614F3C5A2988A8CE0050DDD1 /* FetchController.swift */,
 				614F3C5C2989737B0050DDD1 /* PokemonViewModel.swift */,
 				612D204529883B3500E4417B /* Persistence.swift */,
+				614F3C62298986530050DDD1 /* Pokemon+Ext.swift */,
 				612D204729883B3500E4417B /* Dex4.xcdatamodeld */,
 				612D204029883B3500E4417B /* Assets.xcassets */,
 				612D204229883B3500E4417B /* Preview Content */,
@@ -161,6 +164,7 @@
 				612D204629883B3500E4417B /* Persistence.swift in Sources */,
 				612D203F29883B3400E4417B /* ContentView.swift in Sources */,
 				614F3C5F29897F540050DDD1 /* PokemonDetail.swift in Sources */,
+				614F3C63298986530050DDD1 /* Pokemon+Ext.swift in Sources */,
 				614F3C5B2988A8CE0050DDD1 /* FetchController.swift in Sources */,
 				614F3C61298980660050DDD1 /* SamplePokemon.swift in Sources */,
 				614F3C5D2989737B0050DDD1 /* PokemonViewModel.swift in Sources */,
