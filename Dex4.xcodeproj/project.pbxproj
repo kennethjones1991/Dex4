@@ -84,6 +84,8 @@
 		614F3C77298998E00050DDD1 /* Dex4Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dex4Widget.swift; sourceTree = "<group>"; };
 		614F3C79298998E10050DDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		614F3C7B298998E10050DDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F3C8929899AA60050DDD1 /* Dex4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dex4.entitlements; sourceTree = "<group>"; };
+		614F3C8A29899AF20050DDD1 /* Dex4WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dex4WidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		612D203B29883B3400E4417B /* Dex4 */ = {
 			isa = PBXGroup;
 			children = (
+				614F3C8929899AA60050DDD1 /* Dex4.entitlements */,
 				612D203C29883B3400E4417B /* Dex4App.swift */,
 				612D203E29883B3400E4417B /* ContentView.swift */,
 				614F3C5E29897F540050DDD1 /* PokemonDetail.swift */,
@@ -167,6 +170,7 @@
 		614F3C74298998E00050DDD1 /* Dex4Widget */ = {
 			isa = PBXGroup;
 			children = (
+				614F3C8A29899AF20050DDD1 /* Dex4WidgetExtension.entitlements */,
 				614F3C75298998E00050DDD1 /* Dex4WidgetBundle.swift */,
 				614F3C77298998E00050DDD1 /* Dex4Widget.swift */,
 				614F3C79298998E10050DDD1 /* Assets.xcassets */,
@@ -438,6 +442,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dex4/Dex4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dex4/Preview Content\"";
@@ -468,6 +473,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dex4/Dex4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dex4/Preview Content\"";
@@ -497,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Dex4Widget/Dex4WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Z7LY99W88;
@@ -524,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Dex4Widget/Dex4WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Z7LY99W88;
