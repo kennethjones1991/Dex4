@@ -9,7 +9,7 @@ import Foundation
 import CoreData
 
 struct SamplePokemon {
-    static let samplePokemon = {
+    static let samplePokemon = { // TODO: remove the = and the () at the end, making this a computed property instead of this
         let context = PersistenceController.preview.container.viewContext
         
         let fetchRequest: NSFetchRequest<Pokemon> = Pokemon.fetchRequest()

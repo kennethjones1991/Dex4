@@ -31,11 +31,11 @@ struct Provider: TimelineProvider {
     }
     
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), pokemon: SamplePokemon.samplePokemon)
+        SimpleEntry(date: Date(), pokemon: SamplePokemon.samplePokemon) // TODO: try using the randomPokemon and see what happens; right now this doesn't do what it's supposed to.
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), pokemon: randomPokemon)
+        let entry = SimpleEntry(date: Date(), pokemon: randomPokemon) // TODO: try using the samplePokemon instead of the randomPokemon, and see what happens. I am wondering if this is the example that we see in the widget picker, so try it and see. If it's not, just use randomPokemon for all 3.
         completion(entry)
     }
 

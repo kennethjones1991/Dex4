@@ -23,7 +23,7 @@ extension Pokemon {
         case "water":
             return "water"
         default:
-            return "hi"
+            return "hi" // TODO: have this return the default image instead of just "hi"
         }
     }
     

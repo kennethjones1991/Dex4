@@ -87,7 +87,7 @@ struct TempPokemon: Codable {
             case "speed":
                 speed = try statsDictionaryContainer.decode(Int.self, forKey: .value)
             default:
-                print("It will never get here so...")
+                print("It will never get here so...") // TODO: change this message OR ELSE explain that it will only never get here if you typed your cases correctly. Stress that they have to be typed exactly as they are in the API, NOT in our project.
             }
         }
         

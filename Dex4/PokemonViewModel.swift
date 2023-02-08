@@ -33,7 +33,7 @@ class PokemonViewModel: ObservableObject {
         
         do {
             guard var pokedex = try await controller.fetchAllPokemon() else {
-                print("Pokemon have already been got. We good.")
+                print("Pokemon have already been got. We good.") // TODO: change message to be slightly more serious
                 status = .success
                 return
             }
